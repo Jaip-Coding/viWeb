@@ -1,0 +1,36 @@
+# Example use
+viWeb = viWeb()
+viWeb.head = Head()
+viWeb.head.content = [
+    Title("My Website"),
+    viWeb.head.favicon("favicon.ico")
+]
+viWeb.body = Body()
+
+content = [
+    Heading(1, "Welcome to my website!"),
+    Image("image.jpg", alt="A sample image", width="300", height="200"),
+    Image("logo.png", alt="The logo"),
+    Heading(2, "Introduction"),
+    UnorderedList(["Item 1", "Item 2", "Item 3"], list_type='circle'),
+    OrderedList(["First item", "Second item", "Third item"], list_type='I'),
+    DescriptionList([("Term 1", "Description 1"), ("Term 2", "Description 2")]),
+    Paragraph([
+        "This is a sample text with ",
+        Link("https://www.example.com", "a link"), ", ",
+        Bold("bold text"), ", ",
+        Italic("italic text"), ", ",
+        Underline("underlined text"), ", ",
+        Marked("marked text"), ", ",
+        Strikethrough("crossed out text"), ", ",
+        Superscript("superscript text"), ", ",
+        Subscript("subscript text"), " and ",
+        Small(" small text.")
+    ]),
+    Heading(3, ["This is ", Italic("another"), " heading"]),
+    Paragraph("And this is another paragraph."),
+    Audio("audio.mp3", autoplay=True),
+    Video("video.mp4", width="640", height="360", autoplay=True, controls=True)
+]
+
+viWeb.body.content = content
