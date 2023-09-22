@@ -1,8 +1,8 @@
 # viWeb
-viWeb (VisualWebdevelopment) is a programming language for creating and building websites
+viWeb (VisualWebdevelopment) is a tool for creating and building websites with Python
 
 ## About
-viWeb is a programming language integrated into Python. With the help of the included built-in functions, you can create your website.
+viWeb is a tool to write HTML code with Python. It supports all important HTML tags.
 
 ## Instructions
 A short guide for viWeb 1.0
