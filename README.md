@@ -1,4 +1,4 @@
-# viWeb-v1.0
+# viWeb
 viWeb (VisualWebdevelopment) is a tool for building websites with Python.
 
 ## About
