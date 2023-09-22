@@ -1,4 +1,4 @@
-# viWeb-v1.0
+# viWeb
 viWeb (VisualWebdevelopment) is a programming language for creating and building websites
 
 ## About
